@@ -1,0 +1,49 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--light-gray);
+}
+
+.content {
+    max-width: 400px;
+    margin: auto 30px;
+    padding: 20px 20px 30px 20px;
+    border-radius: 20px;
+
+    background-color: var(--white);
+}
+
+.top-card img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.bottom-card h2 {
+    margin: 10px;
+    font-weight: 700;
+    text-align: center;
+
+    color: var(--dark-blue);
+}
+
+.bottom-card p {
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+
+    color: var(--grayish-blue);
+}
